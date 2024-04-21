@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+body{
+  height: 100vh;
+}
+a{
+  text-decoration: none;
+  line-height: 1;
+  cursor: pointer;
+}
+.container{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+    
+  @media (max-width: 768px) {
+    .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  }
+  .btn1 {
+    color: #555555;
+    width: 150px;
+    height: 40px;
+    margin-right: 1.3rem;
+    background: transparent;
+    border-radius: 25px;
+    border: 1px solid #08B2E3;
+    outline: none;
+    font-weight: 500;
+    margin-left: 1.3rem;
+    margin-top: -0.5rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn1:hover {
+    background: #08B2E3;
+    color: #fff;
+    cursor: pointer;
+  }
+  .btn1:hover a{
+    color: #fff;
+  }
+  
+  .btn2 {
+    color: #050505;
+    width: 140px;
+    height: 45px;
+    margin-right: 0.9rem;
+    background: #08B2E3;
+    border-radius: 25px;
+    border: 1px solid #08B2E3;
+    outline: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  .btn2 a{
+    color: #fff;
+  }
+  
+  .btn2:hover {
+    background: transparent;
+    color: #08B2E3;
+    cursor: pointer;
+  }
+  .btn2:hover a{
+    color: #08B2E3;
+  }
+span{
+  color: #08b2e3;
+}
+a{
+  color: inherit;
+}

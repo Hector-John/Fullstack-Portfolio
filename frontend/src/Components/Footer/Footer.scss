@@ -1,0 +1,32 @@
+.footer {
+    background-color: #b8b8b8;
+    gap: 10px;
+
+  @media (max-width: 768px) {
+    padding-top: 2rem;
+  }
+  
+    .footer-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    text-align: center;
+      flex-wrap: wrap;
+    }
+  
+    .name, .year, .rights {
+      margin: 5px 10px;
+      font-size: 1.2rem;
+      color: #333;
+    }
+  
+    .rights {
+      margin-top: 10px;
+    }
+    hr{
+        height: 2px;
+        color: #fff;
+          }
+  }
+
+  

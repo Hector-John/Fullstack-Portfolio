@@ -1,0 +1,135 @@
+.contact {
+  height: 100vh;
+  padding-top: 2rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  background: linear-gradient(to bottom, #ffffff, #b8b8b8);
+
+  @media (max-width: 768px) {
+    margin-top: 4rem;
+    height: fit-content;
+    padding-bottom: 3rem;
+  }
+  @media (max-width: 640px) {
+    margin-top: 6rem;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: transparent;
+    background-image: linear-gradient(to right, #fb5012 30%, #08b2e3 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+  }
+
+  .contactSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 150px;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+
+  .left {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: transparent;
+      background-image: linear-gradient(270deg, #fb5012 80%, #08b2e3 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-align: start;
+    }
+
+    p {
+      max-width: 500px;
+      font-size: 1.4rem;
+      line-height: 30px;
+    }
+    .contactDetails {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .contactDetail {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+    }
+
+    .socials {
+      display: flex;
+      gap: 20px;
+    }
+  }
+
+  .right {
+    width: 50%;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      margin-top: 2rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: start;
+
+      label {
+        color: #32323c;
+        font-size: 1.3rem;
+        font-weight: 500;
+      }
+      input {
+        border: none;
+        width: 650px;
+        height: 75px;
+        padding-left: 2rem;
+        border-radius: 5px;
+        background: #32323c;
+        color: #a0a0a0;
+        font-size: 1.2rem;
+
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+      }
+
+      textarea {
+        width: 650px;
+        border: none;
+        padding: 1rem;
+        border-radius: 5px;
+        background: #32323c;
+        color: #a0a0a0;
+        font-size: 1.2rem;
+
+        @media (max-width: 768px) {
+          width: 100%;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}

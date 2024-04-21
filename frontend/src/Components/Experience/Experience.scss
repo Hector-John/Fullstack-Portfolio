@@ -1,0 +1,142 @@
+.experience {
+  background: linear-gradient(to bottom, #EDF2F8, #ffffff);
+  max-height: 50vh;
+  @media (max-width: 768px) {
+    max-height: auto;
+  }
+  .experience-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+    .category-column {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      gap: 10rem;
+      align-items: center;
+      padding: 4rem 0rem 0rem 5rem;
+      margin-top: 2rem;
+
+      .category-title {
+        color: rgba(8, 178, 227, 0.7);
+        font-size: 20px;
+        margin-bottom: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+
+        &.active {
+          color: #08b2e3;
+          padding: 5px 15px;
+          border-radius: 20px;
+          background: rgba(8, 178, 227, 0.2);
+          &:hover {
+            border: none;
+          }
+        }
+
+        &:hover {
+          border-bottom: 2px solid #08b2e3;
+        }
+      }
+    }
+
+    .details-column {
+      padding: 2rem 3rem;
+      overflow-y: scroll;
+
+      height: 100%; 
+      display: flex;
+      flex-direction: column;
+
+      &::-webkit-scrollbar {
+        display: none; 
+      }
+
+      div {
+        flex: 1; 
+
+        .company {
+          color: #fb5012;
+        }
+
+        p {
+          color: #444652;
+          font-size: 15px;
+          line-height: 1.5;
+
+          &:nth-child(1) {
+            color: #fb5012;
+          }
+        }
+
+        .title {
+          color: #08b2e3;
+          font-size: 17px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+
+    
+    @media (max-width: 768px) {
+      .experience-content {
+        flex-direction: column;
+        align-items: stretch;
+
+        .category-column {
+          border-right: none;
+          padding: 0;
+        }
+
+        .details-column {
+          padding: 0;
+        }
+      }
+    }
+
+    @media (max-width: 640px) {
+      
+    .category-column {
+      gap: 2rem;
+      align-items: start;
+      padding: 0rem 0 0 1rem;
+      margin-top: 2rem;
+
+      .category-title {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+
+        &.active {
+          padding: 5px 10px;
+        }
+
+        &:hover {
+          border-bottom: 2px solid #08b2e3;
+        }
+      }
+    }
+
+    .details-column {
+      padding: 0;
+
+      div {
+
+        p {
+          color: #444652;
+          font-size: 15px;
+          line-height: 1.5;
+        }
+
+        .title {
+          color: #08b2e3;
+          font-size: 16px;
+          margin-top: 10px;
+        }
+      }
+    }
+
+    }
+  }
+}
