@@ -24,21 +24,21 @@ export const services = [
 export const experiences = [
   {
     category: "experiences",
-    // year: "2023",
+    year: "2023",
     company: "",
     title: "UI/UX Designer",
     description: "Collaborated with cross-functional teams to create wireframes, mockups, and prototypes for various digital projects, focusing on enhancing user experience and interface aesthetics.",
   },
   {
     category: "experiences",
-    // year: "2023",
+    year: "2023",
     company: "Studypool",
     title: "Freelancer",
     description: "Provided freelance wed design and development services to clients on Studypool platform, delivering custom solutions tailored to their specific needs and requirements.",
   },
   {
     category: "experiences",
-    // year: "2023",
+    year: "2023",
     company: "IYF Kenya",
     title: "Frontend Developer",
     description: "Participated in a frontend development internship at IYF Kenya, gaining hands-on experience in building responsive and user-friendly web interfaces using modern web technologies.",
@@ -47,7 +47,7 @@ export const experiences = [
 export const education = [
   {
     category: "experiences",
-    // year: "2023",
+    year: "2023",
     company: "IYF Kenya",
     title: "Web Development",
     description: "Embarked on Frontend Web Development",
@@ -66,5 +66,6 @@ export const education = [
     title: "Aeronautical Engineering",
     description: "Attained a Diploma, license and typerating certificate",
   },
-];
+]
+;
 

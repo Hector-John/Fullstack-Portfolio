@@ -7,6 +7,7 @@ import Services from '../../Components/Services/Services'
 import Projects from '../../Components/Projects/Projects'
 import Contact from '../../Components/Contact/Contact'
 import Footer from '../../Components/Footer/Footer'
+import UpArrow from '../../constants/UpArrow'
 
 
 const Index = () => {
@@ -20,6 +21,7 @@ const Index = () => {
       <Projects/>
       <Contact/>
       <Footer/>
+      <UpArrow/>
     </div>
   ) 
 }

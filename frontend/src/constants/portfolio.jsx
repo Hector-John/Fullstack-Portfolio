@@ -1,59 +1,72 @@
-import { images } from "./images";
+import { images } from "../constants";
 
 export const projects = [
-    {
-      title: "E-commerce Website",
-      description:
-        "Built an e-commerce website using React and Redux for state management.",
-      category: "Frontend",
-      tags: ["React", "Redux", "JavaScript", "CSS"],
-      imgUrl: images.profile,
-      projectLink: "trendi-fy.netlify.app",
-    },
-    {
-      title: "Mobile App Design",
-      description:
-        "Designed a mobile app prototype for a travel booking application using Figma.",
-      category: "UI/UX",
-      tags: ["Figma", "UI Design", "Mobile App"],
-      imgUrl: images.example,
-      projectLink: "https://example.com/mobile-app",
-    },
-    {
-      title: "Logo Design",
-      description:
-        "Created a new logo for a startup company focusing on technology solutions.",
-      category: "Graphic Design",
-      tags: ["Logo Design", "Brand Identity"],
-      imgUrl: images.example,
-      projectLink: "https://example.com/logo-design",
-    },
-    {
-      title: "Portfolio Website",
-      description:
-        "Developed a personal portfolio website using HTML, CSS, and JavaScript.",
-      category: "Frontend",
-      tags: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-      imgUrl: images.example,
-      projectLink: "https://example.com/portfolio",
-    },
-    {
-      title: "Social Media Graphics",
-      description:
-        "Designed graphics for social media marketing campaigns for a clothing brand.",
-      category: "Graphic Design",
-      tags: ["Social Media", "Graphics Design", "Marketing"],
-      imgUrl: images.example,
-      projectLink: "https://example.com/social-media-graphics",
-    },
-    {
-      title: "Social Media Graphics",
-      description:
-        "Designed graphics for social media marketing campaigns for a clothing brand.",
-      category: "Fullstack",
-      tags: ["Social Media", "Graphics Design", "Marketing"],
-      imgUrl: images.example,
-      projectLink: "https://example.com/social-media-graphics",
-    },
-  ];
-  
+  // trendify frontend
+  {
+    title: "Trendify",
+    description:
+      "A convenient shoe delivery app offering a wide selection of footwear delivered straight to your doorstep with ease and efficiency",
+    category: "Frontend",
+    tags: ["React","CSS"],
+    imgUrl: images.trendify,
+    projectLink: "https://trendi-fy.netlify.app",
+    githubLink: "https://github.com/Hector-John/Trendify",
+  },
+   // blaze na yonga
+   {
+    title: "Blaze Na Yonga",
+    description:
+    "A visually captivating online boutique, showcasing the latest fashion trends and ensuring a seamless browsing experience for users",
+    category: "Frontend",
+    tags: ["React", "Scss"],
+    imgUrl: images.yonga,
+    projectLink: "",
+    githubLink: "https://github.com/Hector-John/Blaze-Na-Yonga",
+  },
+   // hakheem tech institute
+   {
+    title: "Hakheem University",
+    description:
+      "A dynamic university website offering easy navigation and comprehensive information to students, faculty, and visitors alike.",
+    category: "Frontend",
+    tags: ["HTML", "CSS","Javascript"],
+    imgUrl: images.uniwebsite,
+    projectLink: "https://hakheem-university.netlify.app/",
+    githubLink: "https://github.com/Hector-John/Hakheem-University",
+  },
+   // lets chat
+   {
+    title: "Let's Chat",
+    description:
+      "A user-friendly chat web app facilitating seamless communication and connection between individuals across the globe.",
+    category: "Fullstack",
+    tags: ["MongoDB", "Express", "React", "Node.js"],
+    imgUrl: images.chatapp,
+    projectLink: "",
+    githubLink: "https://github.com/Hector-John/Chat-App",
+  },
+//  figma social media app
+  {
+    title: "Social Media App",
+    description:
+      "A sleek user interface for a social media app prototype, focusing on intuitive navigation and modern design elements to enhance user experience.",
+    category: "UI/UX",
+    tags: ["Figma"],
+    imgUrl: images.smfigma,
+    projectLink: "https://www.figma.com/file/D9W5NBTFtN9wonZ7PaogIz/Social-Media-App?type=design&node-id=141-57&mode=design",
+    githubLink: "https://dribbble.com/Hakheem",
+  },
+  // stride for hope
+  {
+    title: "Stride For Hope",
+    description:
+      "An eye-catching poster for a community charity walk event, promoting engagement and support for a local cause.",
+    category: "Graphic Design",
+    tags: ["Adobe Illustrator"],
+    imgUrl: images.example,
+    projectLink: "",
+    githubLink: "https://github.com/Hector-John/",
+  },
+ 
+ 
+];

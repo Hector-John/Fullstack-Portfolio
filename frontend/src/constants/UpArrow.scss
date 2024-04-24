@@ -1,0 +1,42 @@
+.up-arrow {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    cursor: pointer;
+
+  
+    .tooltip {
+      position: absolute;
+      top: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+  
+    &.show {
+      display: block;
+  
+      .tooltip {
+        opacity: 1;
+      }
+    }
+  
+    svg {
+      font-size: 32px;
+      color: #08b2e3;
+      transition: transform 0.3s ease;
+    }
+  
+    &:hover svg {
+      transform: scale(1.1);
+    }
+
+  }
+
+  #Up{
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }

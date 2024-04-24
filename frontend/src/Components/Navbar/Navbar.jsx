@@ -19,8 +19,8 @@ const Navbar = () => {
 
   const handleDownloadCV = () => {
     const downloadLink = document.createElement("a");
-    downloadLink.href = "/path/to/your/cv.pdf";
-    downloadLink.download = "cv.pdf";
+    downloadLink.href = "";
+    downloadLink.download = "hector john.pdf";
     document.body.appendChild(downloadLink);
     downloadLink.click();
     document.body.removeChild(downloadLink);
@@ -64,7 +64,7 @@ const Navbar = () => {
             href="#services"
             className={menu === "services" ? "active" : ""}
             onClick={() => {
-              setMenu("about");
+              setMenu("services");
               closeMenu();
             }}
           >
@@ -86,7 +86,7 @@ const Navbar = () => {
         </li>
         <li>
           <AnchorLink
-            offset={50}
+            offset={30}
             href="#contact"
             className={menu === "contact" ? "active" : ""}
             onClick={() => {

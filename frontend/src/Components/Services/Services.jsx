@@ -9,31 +9,31 @@ const Services = () => {
       title: "Frontend Development",
       description:
         "Craft captivating user interfaces that captivate and engage users, ensuring seamless interaction and intuitive navigation.",
-      imgUrl: images.example,
+      imgUrl: images.frontend,
     },
 
     {
       title: "UI/UX Design",
       description:
         "Design user-centric interfaces that prioritize usability and enhance user satisfaction, leveraging industry-standard design tools.",
-      imgUrl: images.example,
+      imgUrl: images.uiux,
     },
     {
       title: "Graphic Design",
       description:
         "Produce visually compelling content for branding, marketing, and communication purposes, creating memorable and impactful designs.",
-      imgUrl: images.example,
+      imgUrl: images.graphic,
     },
     {
       title: "Backend Development",
       description:
         "Exploring the realm of backend development to master the art of crafting scalable and reliable server-side solutions.",
-      imgUrl: images.example,
+      imgUrl: images.backend,
     },
   ];
 
   return (
-    <div className="servicesPage container" id="Services">
+    <div className="servicesPage container" id="services">
       <h2>
         I Know That <span>Good Design</span>
         <br /> Means <span>Good Business</span>

@@ -60,7 +60,7 @@ const About = () => {
           <img src={images.sass} alt="" />
           <img src={images.node} alt="" />
           <img src={images.tailwind} alt="" />
-          <img src={images.vue} alt="" />
+          <img src={images.mongodb} alt="" />
 
           </motion.div>
       </div>
